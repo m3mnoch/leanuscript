@@ -1,0 +1,27 @@
+{
+  "name": "Leanuscript",
+  "productName": "Leanuscript",
+  "description": "Manuscript Editor: Lean, mean, and full of flavor.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/m3mnoch/leanuscript",
+  "author": {
+    "name": "Christopher D. Chapman / Steel Anvil Studios",
+    "email": "chris@steelanvilstudios.com",
+    "url": "https://steelanvilstudios.com/"
+  },
+  "license": "MIT",
+  "main": "main.js",
+  "electronVersion": "1.0.0",
+  "dependencies": {
+    "devtron": "^1",
+    "electron-debug": "^1",
+    "electron-is-dev": "^0.1",
+    "lodash": "^4"
+  },
+  "config": {
+    "url": "index.html",
+    "update": {
+      "url": false
+    }
+  }
+}
