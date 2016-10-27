@@ -1,20 +1,15 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <script src="lib/codemirror.js" type="text/javascript"></script>
-    <script src="assets/js/tmp-mirrorframe.js" type="text/javascript"></script>
-    <title>CodeMirror: JavaScript demonstration</title>
+<head>
+    <title>Leanuscript</title>
+    <script src="assets/js/zepto.min.js" type="text/javascript"></script>
+    <script src="assets/js/codemirror.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/app.css"/>
-    <link rel="stylesheet" type="text/css" href="lib/codemirror.css"/>
-  </head>
-  <body style="padding: 20px;">
-
-<script type="text/javascript">
-var myCodeMirror = CodeMirror(document.body, {
-  value: "function myScript(){return 100;}\n",
-  mode:  "javascript"
-});
-</script>
-
-  </body>
+    <link rel="stylesheet" type="text/css" href="assets/css/codemirror.css"/>
+</head>
+<body>
+    <script type="text/javascript">
+        var myCodeMirror = CodeMirror(document.body);
+    </script>
+</body>
 </html>
