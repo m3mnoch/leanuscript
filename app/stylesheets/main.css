@@ -20,21 +20,3 @@ a {
 .subtitle {
   color: gray;
 }
-
-
-
-
-html {
-  background: url(writing-background-action.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.CodeMirror {
-    background-color: transparent !important;
-    width: 100%;
-    height: 100%;
-    padding: 5%;
-}

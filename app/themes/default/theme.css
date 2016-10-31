@@ -1,0 +1,16 @@
+html {
+  background: url(writing-background-action.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.CodeMirror {
+    position: relative;
+    background-color: transparent !important;
+    width: 35%;
+    height: 80%;
+    left: 60%;
+    top: 10%;
+}
