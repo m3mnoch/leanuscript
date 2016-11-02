@@ -7,7 +7,7 @@ html {
 }
 
 .CodeMirror {
-    position: relative;
+    position: absolute;
     background-color: transparent !important;
     width: 35%;
     height: 80%;

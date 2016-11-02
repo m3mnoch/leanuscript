@@ -8,12 +8,16 @@ var themes = {}
 var myApp;
 var userDataPath;
 var config;
+
+var forceNewConfig = true;
+
+
 themes.init = function(x) {
     myApp = x;
     userDataPath =  myApp.getPath('userData');
 
     config = jetpack.read(userDataPath + "/config.json", "json")
-    if (typeof config === 'undefined') {
+    if (typeof config === 'undefined' || forceNewConfig) {
         // there's not a config since this is the first start.
         console.log("config file doesn't exist.")
         themes.initUserData();
