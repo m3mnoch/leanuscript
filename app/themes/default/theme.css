@@ -11,6 +11,8 @@ html {
     background-color: transparent !important;
     width: 35%;
     height: 80%;
-    left: 60%;
+    left: 50%;
     top: 10%;
+    font-size: 18px;
+    line-height: 26px;
 }
