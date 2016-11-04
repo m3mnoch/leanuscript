@@ -17,7 +17,7 @@ var myApp;
 var userDataPath;
 var config;
 
-var forceNewConfig = true;
+var forceNewConfig = false;
 
 
 themes.init = function(x) {

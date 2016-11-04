@@ -1,0 +1,27 @@
+html {
+  background: url(writing-background-evil.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.CodeMirror {
+    position: absolute;
+    background-color: transparent !important;
+    color: linen !important;
+    width: 35%;
+    height: 80%;
+    left: 15%;
+    top: 10%;
+    font-size: 18px;
+    line-height: 26px;
+    cursor: auto !important;
+}
+.CodeMirror-cursor {
+    border-left: 1px solid linen !important;
+}
+
+.CodeMirror-lines {
+    cursor: url(i-beam-cursor.png), text !important;
+}
